@@ -1,0 +1,40 @@
+1. what is Machine learning?
+	Machine learning is a method of teaching computers to learn from data, without being explicitly programmed. It involves using algorithms to analyze and understand patterns in data, and make predictions or decisions without human intervention. There are several different types of machine learning, including supervised learning, unsupervised learning, semi-supervised learning, and reinforcement learning.
+
+2. Tensor in ML?
+	In machine learning, a tensor is a multi-dimensional array of numerical values. Tensors are used to represent and manipulate data in various machine learning algorithms, such as deep learning and neural networks. They are a fundamental building block of many machine learning libraries, such as TensorFlow and PyTorch. Tensors can have any number of dimensions, and are often used to represent data in the form of images, videos, and audio. Tensors can be used for a variety of tasks such as image classification, object detection, speech recognition, and natural language processing.
+
+3. what Cosine simalirity?
+	Cosine similarity is a measure of similarity between two non-zero vectors of an inner product space that measures the cosine of the angle between them. The cosine of 0° is 1, and it is less than 1 for any other angle. In other words, the smaller the angle between two vectors, the larger the cosine similarity.
+
+It is computed as the dot product of two vectors divided by the product of their magnitudes. The dot product is a measure of the similarity between two vectors, and the magnitudes are a measure of the length of the vectors.
+
+It is used in many applications like natural language processing, information retrieval and computer vision. In NLP it is used to find the similarity between two sentences or documents, and in computer vision it is used to compare the similarity of two images.
+
+It is a common method used in document retrieval and text similarity, as it is easy to implement and computationally efficient.
+
+4. What is Norms in ML?
+	In machine learning, a norm is a function that assigns a scalar value to a vector, which represents the "size" or "magnitude" of the vector. The most common norms used in machine learning are the Lp norms, which are defined as:
+
+L1 norm: The sum of the absolute values of the vector's elements. It is also known as the Manhattan norm or the Taxicab norm.
+L2 norm: The square root of the sum of the squares of the vector's elements. It is also known as the Euclidean norm or the "ordinary" norm.
+L infinity norm: The maximum absolute value of the vector's elements.
+These norms are used in many machine learning algorithms, such as linear regression, principal component analysis, and support vector machines. They are used to regularize models, which helps to prevent overfitting and improve generalization. They are also used as a measure of similarity between two vectors.
+
+For example, L2 norm is used in Back Propagation algorithm to compute the gradient of the cost function and L1 norm is used in Lasso Regression.
+
+In addition to Lp norms, there are other types of norms used in machine learning, such as the Frobenius norm, which is used in matrix factorization and the Schatten norm, which is used in matrix compression.
+
+5. What is Linear regression?
+	Linear regression is a statistical method that is used to model the linear relationship between a dependent variable and one or more independent variables. It's commonly used to make predictions about the dependent variable based on the values of the independent variables.
+
+In simple linear regression, there is only one independent variable, while in multiple linear regression, there are two or more independent variables. The goal is to find the line of best fit that minimizes the difference between the observed values and the values predicted by the line.
+
+The line of best fit is represented by a linear equation:
+
+makefile
+Copy code
+y = ß0 + ß1x
+where y is the dependent variable, x is the independent variable, ß0 is the y-intercept, and ß1 is the slope of the line. The values of ß0 and ß1 are estimated using the method of least squares, which minimizes the sum of the squared differences between the observed values and the values predicted by the line.
+
+Linear regression is a powerful tool for modeling linear relationships, but it may not be appropriate for modeling non-linear relationships. In those cases, alternative models, such as polynomial regression or non-linear regression, may be more appropriate.
